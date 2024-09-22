@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomFillButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/rounded_fill_button</item>
+    </style>
+    <style name="CustomButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="iconTint">?attr/colorPrimary</item>
+    </style>
+</resources>

@@ -33,7 +33,7 @@ jobs:
       - name: Setup local.properties
         run: |
           echo "NEWS_API_KEY=${{ secrets.NEWS_API_KEY }}" > local.properties
-          echo "NEWS_BASE_URL=${{ secrets.NEWS_BASE_URL }}" > local.properties
+          echo "NEWS_BASE_URL=${{ secrets.NEWS_BASE_URL }}" >> local.properties
 
       # Build a Debug APK using Gradle
       - name: Build APK

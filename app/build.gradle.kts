@@ -11,8 +11,8 @@ val localProperties = Properties().apply {
     load(rootProject.file("local.properties").inputStream())
 }
 
-val baseUrl: String = localProperties.getProperty("baseUrl")
-val apiKey: String = localProperties.getProperty("apiKey")
+val baseUrl: String = localProperties.getProperty("NEWS_BASE_URL")
+val apiKey: String = localProperties.getProperty("NEWS_API_KEY")
 
 android {
     namespace = "com.dicoding.asclepius"
